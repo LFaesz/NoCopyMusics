@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header .logo{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 36px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav a{
+    text-decoration: none; /* Tira a marcaçao de link */
+    color: #AAA;
+    margin-right: 10px;      /* Separa os links uns dos outros */
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.musica-pricipal{
+    background: url('img/baileCapa.jpg');
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.botao{
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.50) ;
+    border: none;
+    color: white;
+
+    padding: 15px 30px; /* Altera o tamanho de todos os lados */
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.50);
+    color: black;
+}
+
+#escutar{
+    text-decoration: none;
+    color: rgb(153, 146, 146);
+    border: none;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+#escutar:hover{
+    color: black;
+}
+
+.titulo{
+    margin-top: 1px;
+    font-size: 50px;
+    margin-left: 60px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.descricao{
+    margin-left: 60px;
+    font-size: 19px;
+    font-family: cursive;
+}
+
+.item{
+
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-musicas{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.destaques{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
