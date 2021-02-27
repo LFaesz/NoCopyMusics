@@ -34,8 +34,9 @@
                 <h3 class="titulo"> Baile de Favela </h3>
                 <p class="descricao"> MC João </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
-                        <a  href="https://www.youtube.com/watch?v=kzOkza_u3Z8" target="_blank" id="escutar">Ouvir Agora</a>  
+                    <button onclick="play()" role="button" class="botao">
+                        <audio id="audio" src="music/baile.mp3"></audio>
+                        <a href="https://www.youtube.com/watch?v=kzOkza_u3Z8" target="_blank" id="escutar">Ouvir Agora</a>  
                     </button>
                 </div>
             </div>
@@ -50,7 +51,7 @@
         </div>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <a href="https://www.youtube.com/watch?v=uJtmmEkhKaE" target="_blank" > <img src="img/funk1.jpg" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=uJtmmEkhKaE" target="_blank" > <img src="img/funk1.jpg" alt=""></a>  
             </div>
             <div class="item">
                 <a href="https://www.youtube.com/watch?v=QF0sV6pq26k" target="_blank" > <img src="img/funk2.jpg" alt=""></a>
@@ -86,6 +87,9 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="main.js"></script>
+ 
+
 
 </body>
 </html>
