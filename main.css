@@ -28,7 +28,7 @@ header nav a:hover{
 }
 
 .musica-pricipal{
-    background: url('img/baileCapa.jpg');
+    background: url('img/perdas.png');
     height: 1000px;
     background-size: cover;
 
@@ -43,35 +43,49 @@ header nav a:hover{
 }
 
 header .container {
+    position: sticky;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: black;
+}
 
+.FixoNoTopo{
+    position: fixed;
+    top:0px;
+    
+}
+
+.FixoNoTopo + .container{
+    padding-top: 60px;
 }
 
 .botao{
     margin-left: 60px;
-    background-color: rgba(0, 0, 0, 0.50) ;
+    background-color: rgba(0, 0, 0, 0.808) ;
     border: none;
     color: white;
+    border: none;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 
     padding: 15px 30px; /* Altera o tamanho de todos os lados */
     margin-right: 15px;
-    font-size: 16px;
     cursor: pointer;
     transition: 1s;
 }
 
 .botao:hover{
-    background-color: rgba(255, 255, 255, 0.50);
-    color: black;
+    background-color: rgba(255, 255, 255, 0.719);
+    color: rgb(0, 0, 0);
 }
+
 
 #escutar{
     text-decoration: none;
-    color: rgb(153, 146, 146);
+    color: rgb(255, 255, 255);
     border: none;
     font-style: oblique;
     font-size: 20px;
@@ -80,6 +94,7 @@ header .container {
 #escutar:hover{
     color: black;
 }
+
 
 .titulo{
     margin-top: 1px;
