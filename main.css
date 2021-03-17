@@ -27,6 +27,13 @@ header nav a:hover{
     color: rgb(255, 0, 0);
 }
 
+
+.fixo{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .musica-pricipal{
     background: url('img/perdas.png');
     height: 1000px;
@@ -43,7 +50,6 @@ header nav a:hover{
 }
 
 header .container {
-    position: sticky;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,15 +57,12 @@ header .container {
     background-color: black;
 }
 
-.FixoNoTopo{
-    position: fixed;
-    top:0px;
-    
+.container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
-.FixoNoTopo + .container{
-    padding-top: 60px;
-}
 
 .botao{
     margin-left: 60px;
@@ -131,5 +134,9 @@ header .container {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 30px;
     margin-bottom: 25px;
+}
+
+h1{
+    margin-left: 770px;
 }
 
