@@ -1,0 +1,55 @@
+function temaa(){
+    var sigtxt = document.getElementById('sigtxt')
+    var txtlog = document.getElementById('txtlog')
+    var sec = document.getElementById('sec')
+    var fundo = document.body
+    var temaa = document.getElementById('container')
+    var logo = document.getElementById('logo')
+    var link1 = document.getElementById('link1')
+    var link2 = document.getElementById('link2')
+    var link3 = document.getElementById('link3')
+    var link4 = document.getElementById('link4')
+    var link5 = document.getElementById('link5')
+    var link6 = document.getElementById('link6')
+    sigtxt.style.color = 'rgb(104, 100, 100)'
+    txtlog.style.color = 'black'
+    sec.style.backgroundColor = 'rgb(192, 189, 189)'
+    fundo.style.backgroundColor = 'black'
+    temaa.style.backgroundColor = 'black'
+    logo.style.color = 'white'
+    link1.style.color = 'white'
+    link2.style.color = 'white'
+    link3.style.color = 'white'
+    link4.style.color = 'white'
+    link5.style.color = 'white'
+    link6.style.color = 'white'
+    
+}
+
+function tema(){ //  BRANCO
+    var sigtxt = document.getElementById('sigtxt')
+    var txtlog = document.getElementById('txtlog')
+    var sec = document.getElementById('sec')
+    var fundo = document.body
+    var tema = document.getElementById('container')
+    var logo = document.getElementById('logo')
+    var link1 = document.getElementById('link1')
+    var link2 = document.getElementById('link2')
+    var link3 = document.getElementById('link3')
+    var link4 = document.getElementById('link4')
+    var link5 = document.getElementById('link5')
+    var link6 = document.getElementById('link6')
+    sigtxt.style.color = 'white'
+    txtlog.style.color = 'white'
+    sec.style.backgroundColor = 'black'
+    tema.style.backgroundColor = 'white'
+    fundo.style.backgroundColor = 'rgb(236, 236, 236)'
+    logo.style.color = 'black'
+    link1.style.color = 'black'
+    link2.style.color = 'black'
+    link3.style.color = 'black'
+    link4.style.color = 'black'
+    link5.style.color = 'black'
+    link6.style.color = 'black'
+
+}
