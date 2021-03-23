@@ -7,6 +7,7 @@ function playAudio(url) {
   }
 
   function temaa(){
+    var fundo = document.body
     var temaa = document.getElementById('container')
     var logo = document.getElementById('logo')
     var link1 = document.getElementById('link1')
@@ -26,7 +27,9 @@ function playAudio(url) {
     
 }
 
-function tema(){
+function tema(){ //  BRANCO
+    var destaque = document.getElementById('dest')
+    var fundo = document.body
     var tema = document.getElementById('container')
     var logo = document.getElementById('logo')
     var link1 = document.getElementById('link1')
@@ -35,6 +38,8 @@ function tema(){
     var link4 = document.getElementById('link4')
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
+    destaque.style.color = 'black'
+    fundo.style.backgroundColor = 'rgb(236,236,236)'
     tema.style.backgroundColor = 'white'
     logo.style.color = 'black'
     link1.style.color = 'black'
