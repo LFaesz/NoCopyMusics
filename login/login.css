@@ -1,26 +1,28 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 body{
     background: rgb(12,12,12);
 }
 
-header{
-    margin-top: 100px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 20pt;
-}
 
 section{
     background-color: rgb(192, 189, 189);
     border-radius: 10px;
     padding: 15px;
     width: 400px;
+    height: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(71, 70, 70, 0.445);
     text-align: center;
+    margin-top: 100px;
 }
 
 .log1{
-    height: 30px;
+    height: 40px;
     width: 250px;
     border: solid 2px red;
     border-radius: 10px;
@@ -39,4 +41,59 @@ section{
 .bottxt{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 36px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav a{
+    text-decoration: none; /* Tira a marcaçao de link */
+    color: #AAA;
+    margin-right: 10px;      /* Separa os links uns dos outros */
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.login{
+    margin-top: 0px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    font-style: oblique;
+}
+
+#log{
+    height: 40px;
+    width: 140px;
+}
+
+#log1{
+    height: 44px;
+    width: 150;
+}
+
+#sig{
+    border: solid red 1px;
+    margin: 0px;
+    padding: 0px;
+    width: 130px;
 }
