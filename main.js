@@ -7,6 +7,7 @@ function playAudio(url) {
   }
 
   function temaa(){
+    var destaque = document.getElementById('dest')
     var fundo = document.body
     var temaa = document.getElementById('container')
     var logo = document.getElementById('logo')
@@ -16,6 +17,8 @@ function playAudio(url) {
     var link4 = document.getElementById('link4')
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
+    destaque.style.color = 'white'
+    fundo.style.backgroundColor = 'black'
     temaa.style.backgroundColor = 'black'
     logo.style.color = 'white'
     link1.style.color = 'white'

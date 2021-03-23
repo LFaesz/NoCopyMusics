@@ -1,6 +1,5 @@
 body{
     background-color: rgb(12, 12, 12);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 *{
@@ -21,6 +20,7 @@ header nav a{
     color: #AAA;
     margin-right: 10px;      /* Separa os links uns dos outros */
     margin: 10px;
+    font-size: 20px;
 }
 
 header nav a:hover{
