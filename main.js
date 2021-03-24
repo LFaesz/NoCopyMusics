@@ -17,17 +17,18 @@ function playAudio(url) {
     var link4 = document.getElementById('link4')
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
+    var link7 = document.getElementById('link7')
     destaque.style.color = 'white'
     fundo.style.backgroundColor = 'black'
     temaa.style.backgroundColor = 'black'
-    logo.style.color = 'white'
-    link1.style.color = 'white'
-    link2.style.color = 'white'
-    link3.style.color = 'white'
-    link4.style.color = 'white'
-    link5.style.color = 'white'
-    link6.style.color = 'white'
-    
+    logo.style.color = '#AAA'
+    link1.style.color = '#AAA'
+    link2.style.color = '#AAA'
+    link3.style.color = '#AAA'
+    link4.style.color = '#AAA'
+    link5.style.color = '#AAA'
+    link6.style.color = '#AAA'
+    link7.style.color = '#AAA'
 }
 
 function tema(){ //  BRANCO
@@ -41,6 +42,7 @@ function tema(){ //  BRANCO
     var link4 = document.getElementById('link4')
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
+    var link7 = document.getElementById('link7')
     destaque.style.color = 'black'
     fundo.style.backgroundColor = 'rgb(236,236,236)'
     tema.style.backgroundColor = 'white'
@@ -51,5 +53,5 @@ function tema(){ //  BRANCO
     link4.style.color = 'black'
     link5.style.color = 'black'
     link6.style.color = 'black'
-
+    link7.style.color = 'black'
 }

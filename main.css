@@ -122,11 +122,14 @@ header .container {
 .destaques{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 h1{
     margin-left: 770px;
 }
 
+#copy{
+    color: white;
+    text-align: center;
+}

@@ -1,7 +1,5 @@
 function temaa(){
-    var sigtxt = document.getElementById('sigtxt')
-    var txtlog = document.getElementById('txtlog')
-    var sec = document.getElementById('sec')
+    var destaque = document.getElementById('dest')
     var fundo = document.body
     var temaa = document.getElementById('container')
     var logo = document.getElementById('logo')
@@ -12,9 +10,7 @@ function temaa(){
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
     var link7 = document.getElementById('link7')
-    sigtxt.style.color = 'rgb(104, 100, 100)'
-    txtlog.style.color = 'black'
-    sec.style.backgroundColor = 'rgb(192, 189, 189)'
+    destaque.style.color = 'white'
     fundo.style.backgroundColor = 'black'
     temaa.style.backgroundColor = 'black'
     logo.style.color = '#AAA'
@@ -28,9 +24,7 @@ function temaa(){
 }
 
 function tema(){ //  BRANCO
-    var sigtxt = document.getElementById('sigtxt')
-    var txtlog = document.getElementById('txtlog')
-    var sec = document.getElementById('sec')
+    var destaque = document.getElementById('dest')
     var fundo = document.body
     var tema = document.getElementById('container')
     var logo = document.getElementById('logo')
@@ -41,11 +35,9 @@ function tema(){ //  BRANCO
     var link5 = document.getElementById('link5')
     var link6 = document.getElementById('link6')
     var link7 = document.getElementById('link7')
-    sigtxt.style.color = 'white'
-    txtlog.style.color = 'white'
-    sec.style.backgroundColor = 'black'
+    destaque.style.color = 'black'
+    fundo.style.backgroundColor = 'rgb(236,236,236)'
     tema.style.backgroundColor = 'white'
-    fundo.style.backgroundColor = 'rgb(236, 236, 236)'
     logo.style.color = 'black'
     link1.style.color = 'black'
     link2.style.color = 'black'
