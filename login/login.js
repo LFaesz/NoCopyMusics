@@ -55,3 +55,4 @@ function tema(){ //  BRANCO
     link6.style.color = 'black'
     link7.style.color = 'black'
 }
+

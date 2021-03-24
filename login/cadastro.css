@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12,12,12);
+}
+
+header .logo{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 36px;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav a{
+    text-decoration: none; /* Tira a marcaçao de link */
+    color: #AAA;
+    margin-right: 10px;      /* Separa os links uns dos outros */
+    margin: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+/*  Conteudo  */
+
+section{
+    background-color: rgb(192, 189, 189);
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    height: 420px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(71, 70, 70, 0.445);
+    text-align: center;
+    margin-top: 100px;
+}
+
+#log1{
+    height: 40px;
+    width: 250px;
+    border: solid 2px red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.user{
+    margin-top: 10px;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+/*  Termos  */
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+/*  aparelhos moveis  */
+
+.signgoogleapple{
+    margin-top: 10px;
+}
+
+#ps{
+    color: rgb(0, 0, 0);
+}
