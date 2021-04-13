@@ -8,6 +8,21 @@ body{
    box-sizing: border-box;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, white);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, rgb(228, 0, 0));
+}
+
 header .logo{
     color: rgba(255, 255, 255, 0.788);
     font-size: 36px;
